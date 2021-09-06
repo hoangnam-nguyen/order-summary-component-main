@@ -32,18 +32,11 @@
 body {
     font-family: var(--ff);
     background: var(--clr-primary-pale) url('images/pattern-background-desktop.svg') no-repeat;
-    background-size: contain;
-    background-position-y: 5rem;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
-
-@media (min-width: 900px) {
-    body {
-        background-position-y: -5rem;
-    }
 }
 
 main {
@@ -82,7 +75,7 @@ main img {
         padding-right: 2.25em;
     }
 }
-
+ 
 .info h1 {
     color: var(--clr-neutral-dark);
     font-weight: var(--fw-bold);
