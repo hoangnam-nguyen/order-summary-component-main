@@ -29,6 +29,10 @@
     outline: none;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: var(--ff);
     background: var(--clr-primary-pale) url('images/pattern-background-desktop.svg') no-repeat;
@@ -41,9 +45,9 @@ body {
 
 main {
     background-color: #fff;
-    height: 35rem;
-    max-width: 25rem;
-    border-radius: 1rem;
+    height: 56rem;
+    max-width: 40rem;
+    border-radius: 1.6rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
